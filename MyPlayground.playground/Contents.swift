@@ -19,7 +19,7 @@ print(message)
 
 var message1 = "hello swift how can i get started?"
 var message2 = "the best way to get started is to stop talking and code"
-
+var message3 = "good luck men.."
 message1.uppercased()
 message2.lowercased() + "okay, i'm working on it "
 //seleksi kondisi
@@ -29,8 +29,8 @@ if message1 == message2 {
       print("not the same message")
 }
 
-let mesageLabel = UILabel(frame:CGRect(x: 0, y: 0, width: 300, height: 50))
-mesageLabel.text = message2
+let mesageLabel = UILabel(frame:CGRect(x: 0, y: 0, width: 1000, height: 300))
+mesageLabel.text = message1 + message2 + message3
 
 mesageLabel
 //mengganti background label
